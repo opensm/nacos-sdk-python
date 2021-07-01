@@ -343,7 +343,7 @@ class NacosClient:
         }
 
         if self.namespace:
-            params["tenant"] = self.namespace
+            params["namespace"] = self.namespace
 
         if app_name:
             params["appName"] = app_name
